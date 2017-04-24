@@ -1,0 +1,10 @@
+.fa {
+	font-size: 25px !important;
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+
+.fa.edit {
+	color: green !important;
+}
+
