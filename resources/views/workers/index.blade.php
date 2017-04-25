@@ -3,6 +3,8 @@
 @section('title', '| All Workers')
 
 @section('content') 
+
+
   <table id="datatable" class="table table-responsive table-striped table-bordered">
       <thead>
           <tr>
@@ -27,7 +29,7 @@
 
                 {!! Form::open(['route' => ['workers.destroy', $worker->id], 'method' => 'DELETE']) !!}
                   <a href="{{ route('workers.edit', $worker->id)}}"><i class="fa fa-pencil edit"></i></a>
-                  {{ Form::submit('X', ['class' => 'btn btn-danger btn-sm']) }}
+                  {{ Form::submit('X', ['class' => 'btn btn-danger']) }}
                 {!! Form::close() !!}
 
                 
